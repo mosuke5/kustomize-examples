@@ -1,0 +1,5 @@
+bases:
+- ../../base
+namespace: "production"
+patchesStrategicMerge:
+- change-nginx-service-to-loadbalancer.yml
