@@ -1,0 +1,7 @@
+resources:
+- nginx-deployment.yml
+- nginx-service.yml
+- nginx-route.yml
+images:
+- name: nginx
+  newTag: "1.20.0"
